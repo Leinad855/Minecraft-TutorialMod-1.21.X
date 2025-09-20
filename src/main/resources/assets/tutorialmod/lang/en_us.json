@@ -1,7 +1,14 @@
 {
   "item.tutorialmod.pink_garnet": "Pink Garnet",
   "item.tutorialmod.raw_pink_garnet": "Rar Pink Garnet",
+  "item.tutorialmod.bismuth": "Bismuth",
+  "tiem.tutorialmod.raw_bismuth": "Raw Bismuth",
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
-  "block.tutorialmod.raw_pink_garnet_block": "BLock of Raw Pink Garnet"
+  "block.tutorialmod.raw_pink_garnet_block": "BLock of Raw Pink Garnet",
+  "block.tutorialmod.bismuth_block": "Block of Bismuth",
+  "block.tutorialmod.bismuth_ore": "Bismuth Ore",
+
+  "itemgroups.tutorialmod.mod_items": "Mod Items",
+  "itemgroups.tutorialmod.mod_blocks": "Mod Blocks"
 }
