@@ -4,6 +4,7 @@ import com.mojang.datafixers.kinds.IdF;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.leinad.tutorialmod.TutorialMod;
 import net.leinad.tutorialmod.item.custom.ChiselItem;
+import net.leinad.tutorialmod.item.custom.CrabClawItem;
 import net.leinad.tutorialmod.item.custom.PhantomClockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -22,6 +23,7 @@ public class ModItems {
     public static final Item RAW_BISMUTH = registerItem("raw_bismuth", new Item(new Item.Settings()));
 
     public static final Item PHANTOM_CLOCK = registerItem("phantom_clock", new PhantomClockItem(new Item.Settings().maxDamage(32)));
+    public static final Item CRAB_CLAW = registerItem("crab_claw", new CrabClawItem(new Item.Settings().maxCount(1)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);

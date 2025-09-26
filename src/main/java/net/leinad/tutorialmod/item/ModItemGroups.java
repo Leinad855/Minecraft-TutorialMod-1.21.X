@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_BISMUTH);
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.PHANTOM_CLOCK);
+                        entries.add(ModItems.CRAB_CLAW);
                     }).build());
 
     public static final ItemGroup MOD_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
