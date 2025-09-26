@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "0": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "X": {
+      "item": "minecraft:clock"
+    }
+  },
+  "pattern": [
+    "0#0",
+    "#X#",
+    "0#0"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:phantom_clock"
+  }
+}
