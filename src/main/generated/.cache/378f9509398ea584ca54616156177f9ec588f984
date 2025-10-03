@@ -1,0 +1,9 @@
+// 1.21	2025-10-03T19:57:48.5340583	Tutorial Mod/Block Loot Tables
+d312c2b5ac67ce624ebb5c4a24490615db80bb51 data\tutorialmod\loot_table\blocks\jump_block.json
+81e1cfbc4d86d3fd0189a0c8ea6ecf867f65d766 data\tutorialmod\loot_table\blocks\pink_garnet_ore.json
+20c1b94f16da89972e44952293dc87c35d46d12c data\tutorialmod\loot_table\blocks\pink_garnet_block.json
+ed8fd899f85e6f0a5fb61d30fb9cdcbd4bb8d416 data\tutorialmod\loot_table\blocks\bismuth_ore.json
+cbb358d78cd57da58c907a35212d486fa6f68efa data\tutorialmod\loot_table\blocks\magic_block.json
+a652736cdeacf5e079da60e4e53a84f50edb8d53 data\tutorialmod\loot_table\blocks\bismuth_block.json
+a8a175045f0d3d679e9afac5111d25b6d0b78ab7 data\tutorialmod\loot_table\blocks\pink_garnet_deepslate_ore.json
+c524d99e89d1a6b91131c503e69d1343642df802 data\tutorialmod\loot_table\blocks\raw_pink_garnet_block.json
