@@ -2,6 +2,7 @@ package net.leinad.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.leinad.tutorialmod.block.ModBlocks;
 import net.leinad.tutorialmod.item.ModItemGroups;
 import net.leinad.tutorialmod.item.ModItems;
@@ -18,5 +19,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 	}
 }
