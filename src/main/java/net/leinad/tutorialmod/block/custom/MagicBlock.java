@@ -1,6 +1,7 @@
 package net.leinad.tutorialmod.block.custom;
 
 import net.leinad.tutorialmod.item.ModItems;
+import net.leinad.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -35,12 +36,16 @@ public class MagicBlock extends Block{
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity item){
-            if (item.getStack().getItem() == ModItems.RAW_PINK_GARNET) {
+            if (isValidItem(item.getStack())) {
                 item.setStack(new ItemStack(Items.DIAMOND, item.getStack().getCount()));
             }
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
