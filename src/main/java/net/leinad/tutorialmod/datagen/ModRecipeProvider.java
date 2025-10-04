@@ -44,5 +44,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('%', Items.CLOCK)
                 .criterion(hasItem(Items.PHANTOM_MEMBRANE),conditionsFromItem(Items.PHANTOM_MEMBRANE))
                 .offerTo(recipeExporter);
+
     }
 }
