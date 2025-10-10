@@ -3,6 +3,7 @@ package net.leinad.tutorialmod.block;
 import net.leinad.tutorialmod.TutorialMod;
 import net.leinad.tutorialmod.block.custom.JumpBlock;
 import net.leinad.tutorialmod.block.custom.MagicBlock;
+import net.leinad.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -34,6 +35,10 @@ public class ModBlocks {
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
     public static final Block JUMP_BLOCK = registerBlock("jump_block",
             new JumpBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.CANDLE)));
+
+    public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
+            new PinkGarnetLampBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()
+                    .luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
 
     public static final Block BISMUTH_BLOCK = registerBlock("bismuth_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()

@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.PHANTOM_CLOCK);
                         entries.add(ModItems.CRAB_CLAW);
+                        entries.add(ModItems.BUTTERFLY_RELIC);
 
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.STARLIGHT_ASHES);
@@ -44,6 +45,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModBlocks.JUMP_BLOCK);
+                        entries.add(ModBlocks.PINK_GARNET_LAMP);
 
                         entries.add(ModBlocks.BISMUTH_BLOCK);
                         entries.add(ModBlocks.BISMUTH_ORE);

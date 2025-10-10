@@ -3,6 +3,7 @@ package net.leinad.tutorialmod.item;
 import com.mojang.datafixers.kinds.IdF;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.leinad.tutorialmod.TutorialMod;
+import net.leinad.tutorialmod.item.custom.ButterflyRelicItem;
 import net.leinad.tutorialmod.item.custom.ChiselItem;
 import net.leinad.tutorialmod.item.custom.CrabClawItem;
 import net.leinad.tutorialmod.item.custom.PhantomClockItem;
@@ -29,6 +30,8 @@ public class ModItems {
 
     public static final Item PHANTOM_CLOCK = registerItem("phantom_clock", new PhantomClockItem(new Item.Settings().maxDamage(32)));
     public static final Item CRAB_CLAW = registerItem("crab_claw", new CrabClawItem(new Item.Settings().maxCount(1)));
+
+    public static final Item BUTTERFLY_RELIC = registerItem("butterfly_relic", new ButterflyRelicItem(new Item.Settings().maxCount(16)));
 
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)) {
         @Override
