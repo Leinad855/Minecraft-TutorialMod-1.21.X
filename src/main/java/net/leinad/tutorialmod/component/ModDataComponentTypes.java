@@ -1,5 +1,6 @@
 package net.leinad.tutorialmod.component;
 
+import com.mojang.serialization.Codec;
 import net.leinad.tutorialmod.TutorialMod;
 import net.minecraft.component.ComponentType;
 import net.minecraft.registry.Registries;
@@ -12,6 +13,9 @@ import java.util.function.UnaryOperator;
 public class ModDataComponentTypes {
     public static final ComponentType<BlockPos> COORDINATES =
             register("coordinates", builder -> builder.codec(BlockPos.CODEC));
+
+    public static final ComponentType<Float> COOLDOWN =
+            register("cooldown", floatBuilder -> floatBuilder.codec(Codec.FLOAT));
 
 
     private static <T>ComponentType<T> register(String name, UnaryOperator<ComponentType.Builder<T>> builderOpertator) {

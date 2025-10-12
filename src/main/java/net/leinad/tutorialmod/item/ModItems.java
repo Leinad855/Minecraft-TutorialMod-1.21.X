@@ -58,6 +58,10 @@ public class ModItems {
             new HammerItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 7, -3.4f))));
 
+    public static final Item SLIME_AXE = registerItem("slime_axe",
+            new SlimeAxeItem(ModToolMaterials.SLIME, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SLIME, 6, -3.2f))));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
