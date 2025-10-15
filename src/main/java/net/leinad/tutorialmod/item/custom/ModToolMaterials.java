@@ -1,6 +1,7 @@
-package net.leinad.tutorialmod.item;
+package net.leinad.tutorialmod.item.custom;
 
 import com.google.common.base.Suppliers;
+import net.leinad.tutorialmod.item.ModItems;
 import net.leinad.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.item.Items;
