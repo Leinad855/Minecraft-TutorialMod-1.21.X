@@ -73,6 +73,9 @@ public class ModItems {
             new SlimeAxeItem(ModToolMaterials.SLIME, new Item.Settings()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SLIME, 6, -3.2f))));
 
+    public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }

@@ -1,4 +1,4 @@
-// 1.21	2025-10-13T13:25:31.9732182	Tutorial Mod/Model Definitions
+// 1.21	2025-10-17T19:17:15.9760687	Tutorial Mod/Model Definitions
 e64dbf78056524e8ddd24b2b5ae8e50cb2575437 assets\tutorialmod\models\item\pink_garnet_helmet_amethyst_trim.json
 71d14427350d8972a3b7c9d3b7f2f9ebb012d386 assets\tutorialmod\models\block\pink_garnet_button.json
 b7fa9063d9cfffb94e5b0e258de053c495a8ab3a assets\tutorialmod\models\block\pink_garnet_slab_top.json
@@ -72,8 +72,8 @@ cb89baff69d045fd60cf47daa54dfe248135ec1f assets\tutorialmod\models\item\pink_gar
 de7cef03dda3a791b1e729beb70408dd1bdfc9a8 assets\tutorialmod\models\block\pink_garnet_fence_side.json
 9a7edadc4251cf68d5903fdcf4077dbaac23ce34 assets\tutorialmod\models\item\pink_garnet_helmet_gold_trim.json
 e4a99a451261b58f0ad99c765ea8dfb6af84412b assets\tutorialmod\blockstates\pink_garnet_ore.json
-d363ce00c98c3c63f571a16fbee273dfae494c05 assets\tutorialmod\models\item\slime_axe.json
 14a77355431941873ff0d6076b9d11f952e48e83 assets\tutorialmod\models\item\pink_garnet_helmet_copper_trim.json
+d363ce00c98c3c63f571a16fbee273dfae494c05 assets\tutorialmod\models\item\slime_axe.json
 77311d4d4fb80d5e7cec169a342df8464ad213b7 assets\tutorialmod\models\block\pink_garnet_door_bottom_left.json
 a14b776861c63f6e0da6942ef0b17cd5bb50e48d assets\tutorialmod\models\block\pink_garnet_pressure_plate.json
 5766845b2b537199e0d43d0fa33b3fb4ff9dc38d assets\tutorialmod\models\block\pink_garnet_ore.json
@@ -88,7 +88,6 @@ cf96d28db115823b34bfd1565914960950d7f752 assets\tutorialmod\models\block\pink_ga
 32305f6ce3ee61546017e60ba255e791e8997032 assets\tutorialmod\models\item\pink_garnet.json
 db3c7fd404543728f8b989bee0ca68018dac6e79 assets\tutorialmod\models\item\magic_block.json
 ab962cd8728f30199b0c73a4d57cfa1ba933d6bb assets\tutorialmod\models\item\pink_garnet_boots_lapis_trim.json
-b91de6357c95acf8ea0622be5d7cb112d6ec423e assets\tutorialmod\models\item\chisel.json
 19e117f512b98bc699379365b240a1afd8dfb66e assets\tutorialmod\blockstates\pink_garnet_lamp.json
 57e30f54a5f8cabd13db8a1c1942e7316bb4160e assets\tutorialmod\models\item\pink_garnet_hoe.json
 52a4083d3c35c256af17a02cba3afe2d5960094d assets\tutorialmod\models\item\pink_garnet_door.json
